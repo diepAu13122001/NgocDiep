@@ -14,10 +14,10 @@ class Header extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../NgocDiep/html/table.html">Table - Firestore</a>
+              <a class="nav-link active" aria-current="page" href="../html/table.html">Table - Firestore</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cart</a>
+              <a class="nav-link" href="../html/cart.html">Cart</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Map - API</a>

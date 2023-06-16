@@ -21,9 +21,7 @@
 
     <!-- Chen code js o day -> ky thuat Single Page Application -->
     <main id="app">
-        <button onclick="gotoCreate()">
-            create new data
-        </button>
+
     </main>
 
 
@@ -41,14 +39,13 @@
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
 
     <!-- Khai bao app tu index.js (phai la kieu module) -->
-    <script type="module" src="../js/index.js"></script>
-
+    <script type="module" src="../js/pages/cart.js"></script>
     <script type="module">
-        import Table from "../js/pages/table.js";
+        import Cart from "../js/pages/cart.js";
         import app from "../js/index.js";
 
-        const table = new Table();
-        app.changeActiveScreen(table);
+        const cart = new Cart();
+        app.changeActiveScreen(cart);
     </script>
 </body>
 <html>
